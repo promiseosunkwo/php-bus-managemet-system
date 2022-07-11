@@ -1,0 +1,122 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+body {
+	font-family: 'Lato', sans-serif;
+
+}
+
+
+
+
+.layout {
+    -ms-transform-origin: center top 0px;
+    transform-origin: center top 0px
+}
+
+.layout__seat {
+    border: solid 2px #fff;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    font-size: 13px;
+    height: 40px;
+    width: 60px;
+    cursor: pointer;
+    outline: 0
+}
+
+.layout__seat:focus:not(.layout__seat--unavailable),.layout__seat:hover:not(.layout__seat--unavailable) {
+    transition: .125s;
+    border: solid 2px #00a8e1
+}
+
+.layout__seat:focus:not(.layout__seat--unavailable) svg,.layout__seat:hover:not(.layout__seat--unavailable) svg {
+    fill: #00a8e1;
+    transition: .125s
+}
+
+.layout__seat.layout__seat--unavailable {
+    background-color: #aaa;
+    border: solid 2px #aaa;
+    cursor: default
+}
+
+.layout__seat.layout__seat--selected {
+    background: #e51937;
+    border-color: #e51937;
+    color: white;
+    transition: .125s
+}
+
+.layout__seat.layout__seat--selected:hover {
+    background-color: #941023;
+    border-color: #941023
+}
+
+.layout__seat.layout__seat--premiere {
+    border: 2px solid #c4942f;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-top: -10px
+}
+
+.layout__seat.layout__seat--premiere:hover {
+    border: 2px solid #c4942f
+}
+
+.layout__seat.layout__seat--love-seat-left {
+    margin-left: 3px;
+    margin-right: -3px
+}
+
+.layout__seat.layout__seat--love-seat-right {
+    margin-left: -3px;
+    margin-right: 3px
+}
+
+.layout__seat--empty-space {
+    visibility: hidden
+}
+
+.layout__grid {
+    list-style: none;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 0
+}
+
+.layout__row {
+    margin: 16px;
+    outline: 0
+}
+
+.layout__row:focus .layout__seat:not(.layout__seat--unavailable) {
+    border: solid 2px #00a8e1
+}
+
+.layout__row__columns {
+    list-style: none;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0
+}
+
+.layout__column {
+    margin: 0 4px
+}
+
+.layout__seat__icon {
+    width: 40%
+}

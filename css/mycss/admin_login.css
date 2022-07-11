@@ -1,0 +1,648 @@
+body{
+  /*font-family: 'Abel';*/
+  margin: 0;
+  padding: 0;
+  /* background: url('images/transformer.jpg') no-repeat;
+  background-size: cover; */
+
+
+}
+
+/*LOGO*/
+#heading img{
+  width: 50px;
+  padding: 40px;
+  margin-left: 280px;
+}
+/*COMPANY NAME*/
+#heading h1{
+  font-size: 40px;
+  color: white;
+  margin-top: -100px;
+  margin-left: 120px;
+}
+
+/*SEARCH BAR*/
+#heading form{
+  float: right;
+  margin-top: -65px;
+  margin-right: 13%;
+}
+.button_1{
+  height: 40px;
+  border-radius: 20px;
+  border: 0;
+  padding-right: 40px;
+  padding-left: 40px;
+  color: white;
+  font-size: 17px;
+  font-family: 'Abel';
+  font-weight: bold;
+  background-color:  #dd1e15 ;
+}
+
+#heading input[type="text"]{
+  height: 40px;
+  width: 450px;
+  border-radius: 50px;
+  border: 0;
+}
+/*LOGIN */
+header a{
+  text-decoration: none;
+  float: right;
+  color: white;
+  margin-right: 40px;
+  margin-top: -60px;
+  font-family: 'Almendra';
+  font-size: 17px;
+}
+header a:hover{
+  color: #dd1e15 ;
+  font-weight: bold;
+}
+
+/*LoginBox*/
+.loginbox{
+  width: 320px;
+  height: 420px;
+  background: #000;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+   box-sizing: border-box;
+   padding: 70px 30px;
+}
+.avatar{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 60px );
+}
+
+.loginbox h1{
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+  color: white;
+}
+
+.loginbox p{
+margin: 0;
+padding: 0;
+font-weight: bold;
+color: white;
+}
+.loginbox input{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.loginbox input[type="text"], input[type="password"] {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.loginbox input[type="submit"]{
+border: 0;
+outline: 0;
+height: 40px;
+background: #dd1e15;
+color: #fff;
+font-size: 18px;
+border-radius: 20px;
+}
+
+.loginbox input[type="submit"]:hover{
+  color: white;
+  cursor: pointer;
+  background: #52931d;
+}
+
+.loginbox a{
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 20px;
+  color: white;
+}
+.loginbox a:hover{
+  cursor: pointer;
+  color: #52931d;
+}
+
+/*GREEN BUTTON*/
+.button_2{
+  height: 40px;
+  border: 0;
+  padding-right: 20px;
+  padding-left: 10px;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: 'Abel';
+  background-color: #52931d;
+  border-radius: 5px;
+  transition: transform .2s; /* Animation */
+}
+
+/*BLUE & GREEN BUTTON*/
+nav form{
+  padding: 70px;
+  margin-left: 50px;
+}
+/*BLUE BUTTON*/
+.button_3{
+  height: 40px;
+  border: 0;
+  padding-right: 30px;
+  padding-left: 20px;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: 'Abel';
+  background-color: #2077df ;
+  margin-left: 50%;
+  border-radius: 5px;
+  transition: transform .2s; /* Animation */
+}
+
+/*BIG BOX*/
+.main{
+  text-decoration: none;
+  background-color:  #0a315d ;
+  width: 45%;
+  margin-left: 9%;
+  min-height: 290px;
+  margin-top: -60px;
+  border-radius: 10px;
+  opacity: 0.8;
+  transition: transform .2s; /* Animation */
+
+}
+.main h1{
+  text-decoration: none;
+  padding: 35px;
+  font-weight: bold;
+  font-size: 35px;
+  color:    #18d8de  ;
+  line-height: 30px;
+}
+
+.main p{
+  padding: 30px;
+  font-family: 'Abel';
+  font-size: 23px;
+  color:white ;
+  margin-top: -80px;
+  line-height: 30px;
+}
+
+/*BIG BOX BUTTON*/
+.button_4{
+  height: 40px;
+  border-radius: 20px;
+  border: 0;
+  padding-right: 40px;
+  padding-left: 40px;
+  width: 40%;
+  color: white;
+  font-size: 17px;
+  font-family: 'Abel';
+  background-color:  #dd1e15;
+  margin-left: 26px;
+  margin-top: -20px;
+
+}
+
+/*SMALL SIDE BOX BUTTON*/
+
+/* SMALL BOX 1 */
+.smallbox1{
+  background-color: #489bfa ;
+  width: 10%;
+  min-height: 140px;
+  border-radius: 5px;
+  transition: transform .2s; /* Animation */
+}
+
+.smallbox1{
+margin-left: 55%;
+margin-top: -315px;
+}
+
+.smallbox1 h4{
+  font-family: 'Abel';
+  font-size: 20px;
+  color: white;
+}
+
+
+.smallbox1 i{
+  font-size: 50px;
+  margin-top: -20px;
+  margin-left: 50px;
+  color: white;
+}
+
+/* SMALL BOX 2 */
+.smallbox2 {
+  background-color:#489bfa;
+  width: 10%;
+  min-height: 140px;
+  border-radius: 5px;
+  transition: transform .2s; /* Animation */
+}
+
+.smallbox2{
+margin-left: 55%;
+margin-top: -20px;
+color: white;
+}
+
+.smallbox2 h4{
+  font-family: 'Abel';
+  font-size: 20px;
+  color: white;
+
+}
+
+.smallbox2 i{
+  color: white;
+  font-size: 50px;
+  margin-top: -20px;
+  margin-left: 50px;
+
+}
+
+/* SMALL BOX 3 */
+.smallbox3 {
+  background-color:#489bfa;
+  width: 10%;
+  min-height: 140px;
+  border-radius: 5px;
+  transition: transform .2s; /* Animation */
+}
+
+.smallbox3{
+margin-left: 55%;
+margin-top: -20px;
+}
+
+.smallbox3 h4{
+  font-family: 'Abel';
+  font-size: 20px;
+  color: white;
+
+}
+
+.smallbox3 i{
+  color: white;
+  font-size: 50px;
+  margin-top: -18px;
+  margin-left: 50px;
+}
+
+/* SMALL BOX 4 */
+.smallbox4 {
+  background-color: #1657e4 ;
+  width: 10%;
+  min-height: 140px;
+  border-radius: 5px;
+  transition: transform .2s; /* Animation */
+}
+
+.smallbox4{
+margin-left: 44%;
+margin-top: -165px;
+}
+
+.smallbox4 h4{
+  font-family: 'Abel';
+  font-size: 20px;
+  color: white;
+
+}
+
+.smallbox4 i{
+  color: white;
+  font-size: 50px;
+  margin-top: -18px;
+  margin-left: 35px;
+}
+
+/* SMALL BOX 5 */
+.smallbox5 {
+  background-color: #1657e4 ;
+  width: 10%;
+  min-height: 140px;
+  border-radius: 5px;
+
+  transition: transform .2s; /* Animation */
+}
+
+.smallbox5{
+margin-left: 33%;
+margin-top: -165px;
+}
+
+.smallbox5 h4{
+  font-family: 'Abel';
+  font-size: 20px;
+  color: white;
+
+}
+
+.smallbox5 i{
+  color: white;
+  font-size: 50px;
+  margin-top: -18px;
+  margin-left: 40px;
+}
+
+/* SMALL BOX 6 */
+.smallbox6 {
+  background-color: #1657e4 ;
+  width: 10%;
+  min-height: 140px;
+  border-radius: 5px;
+
+  transition: transform .2s; /* Animation */
+}
+
+.smallbox6{
+margin-left: 22%;
+margin-top: -165px;
+}
+
+.smallbox6 h4{
+  font-family: 'Abel';
+  font-size: 20px;
+  color: white;
+
+}
+
+
+.smallbox6 i{
+  color: white;
+  font-size: 50px;
+  margin-top: -18px;
+  margin-left: 50px;
+}
+
+/* SMALL BOX 7 */
+.smallbox7 {
+  background-color: #1657e4 ;
+  width: 11%;
+  min-height: 140px;
+  border-radius: 5px;
+
+  transition: transform .2s; /* Animation */
+}
+
+.smallbox7{
+margin-left: 10%;
+margin-top: -165px;
+}
+
+.smallbox7 h4{
+  font-family: 'Abel';
+  font-size: 20px;
+  color: white;
+
+}
+
+.smallbox7 i{
+  color: white;
+  font-size: 50px;
+  margin-top: -18px;
+  margin-left: 50px;
+}
+
+/* SMALL BOX 8 */
+.smallbox8 {
+  background-color: #1657e4 ;
+  width: 11%;
+  min-height: 140px;
+  border-radius: 5px;
+
+  transition: transform .2s; /* Animation */
+}
+
+.smallbox8{
+margin-left: 66%;
+margin-top: -151px;
+}
+
+.smallbox8 h4{
+  font-family: 'Abel';
+  font-size: 20px;
+  color: white;
+
+}
+
+.smallbox8 i{
+  color: white;
+  font-size: 50px;
+  margin-top: -21px;
+  margin-left: 50px;
+}
+
+/* SMALL BOX 9 */
+.smallbox9 {
+  background-color: #1657e4 ;
+  width: 11%;
+  min-height: 140px;
+  border-radius: 5px;
+  transition: transform .2s; /* Animation */
+}
+
+.smallbox9{
+margin-left: 78%;
+margin-top: -165px;
+}
+
+.smallbox9 h4{
+  font-family: 'Abel';
+  font-size: 20px;
+  color: white;
+  margin-left: 0px;
+}
+
+
+.smallbox9 i{
+  color: white;
+  font-size: 50px;
+  margin-top: -21px;
+  margin-left: 50px;
+}
+
+
+/* SMALL BOX 10 */
+.smallbox10 {
+  background-color: #18a70c ;
+  width: 11%;
+  min-height: 140px;
+  border-radius: 5px;
+  transition: transform .2s; /* Animation */
+}
+
+.smallbox10{
+margin-left: 78%;
+margin-top: -338px;
+}
+
+.smallbox10 h4{
+  font-family: 'Abel';
+  font-size: 20px;
+  color: white;
+  margin-left: 0px;
+}
+
+
+.smallbox10 i{
+  color: white;
+  font-size: 50px;
+  margin-top: -21px;
+  margin-left: 50px;
+}
+
+/* SMALL BOX 11 */
+.smallbox11 {
+  background-color: #18a70c ;
+  width: 11%;
+  min-height: 140px;
+  border-radius: 5px;
+  transition: transform .2s; /* Animation */
+}
+
+.smallbox11{
+margin-left: 66%;
+margin-top: -165px;
+}
+
+.smallbox11 h4{
+  font-family: 'Abel';
+  font-size: 20px;
+  color: white;
+  margin-left: 0px;
+}
+
+
+.smallbox11 i{
+  color: white;
+  font-size: 50px;
+  margin-top: -21px;
+  margin-left: 50px;
+}
+
+
+
+/* SMALL BOX 12 */
+.smallbox12 {
+  background-color:#489bfa;
+  width: 23%;
+  min-height: 140px;
+  border-radius: 5px;
+  transition: transform .2s; /* Animation */
+}
+
+.smallbox12{
+margin-left: 66%;
+margin-top: -315px;
+}
+
+.smallbox12 h4{
+  font-family: 'Abel';
+  font-size: 20px;
+  color: white;
+  margin-left: 0px;
+}
+
+
+.smallbox12 i{
+  color: white;
+  font-size: 50px;
+  margin-top: -21px;
+  margin-left: 110px;
+}
+
+footer{
+  background-color: #0a315d;
+  min-height: 100px;
+  margin-top: 400px;
+  opacity: 0.8;
+}
+
+footer p{
+  font-size: 25px;
+  text-align: center;
+  font-family: 'Almendra';
+color:white;
+}
+
+.main:hover {
+    transform: scale(1.03); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.button_2:hover {
+    transform: scale(1.03); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.button_3:hover {
+    transform: scale(1.03); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.smallbox1:hover {
+    transform: scale(1.03); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.smallbox2:hover {
+    transform: scale(1.03); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.smallbox3:hover {
+    transform: scale(1.03); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.smallbox4:hover {
+    transform: scale(1.03); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.smallbox5:hover {
+    transform: scale(1.03); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+  .smallbox6:hover {
+      transform: scale(1.03); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    }
+    .smallbox7:hover {
+        transform: scale(1.03); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+      }
+
+      .smallbox7:hover {
+          transform: scale(1.03); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+        }
+
+        .smallbox8:hover {
+            transform: scale(1.03); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+          }
+
+          .smallbox9:hover {
+              transform: scale(1.03); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+            }
+            .smallbox10:hover {
+                transform: scale(1.03); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+              }
+              .smallbox11:hover {
+                  transform: scale(1.03); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+                }
+                .smallbox11:hover {
+                    transform: scale(1.03); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+                  }
+
+                  .smallbox12:hover {
+                      transform: scale(1.03); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+                    }
